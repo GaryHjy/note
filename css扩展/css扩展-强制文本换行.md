@@ -1,0 +1,6 @@
+```
+white-space:normal;
+word-break:break-all;
+word-wrap:break-word
+```
+
