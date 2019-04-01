@@ -17,6 +17,16 @@ ssh-keygen -t rsa -C "youremail@example.com"
 
 git remote add origin git@github.com:github-name/repo-name.git  
 
+## 修改远程库地址
+
+git remote origin set-url [url]  
+
+先删后加  
+
+git remote rm origin  
+git remote add origin [url]
+
+
 ## 克隆远程仓库到本地(自动关联)  
 
 git clone git@github.com:path/github-name.git  
@@ -106,6 +116,10 @@ esc退出编辑
 ## 查看分支  
 
 git branch  
+
+## 查看远程分支  
+
+git branch -a
 
 ## 创建分支  
 
