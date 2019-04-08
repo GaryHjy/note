@@ -857,7 +857,7 @@ getDefaultProps、getInitialState没有了
 
 ##### create-react-app 脚手架
 
-npm install creat-react-app -g
+npm install create-react-app -g
 
 create-react-app my-app //生成一个react开发模板在my-app目录
 //生成的过程特别缓慢，可以使用yarn工具来下载，也就是说先去下载安装yarn   ：npm install yarn -g
